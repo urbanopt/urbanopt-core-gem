@@ -38,7 +38,14 @@ module URBANopt
       def initialize()
 
       end
-
+      
+      ##
+      # Get the path to this FeatureFile
+      ##
+      def path()
+        raise "path not implemented for FeatureFile, override in your class"
+      end
+      
       ##
       # Get a list of all Features in this FeatureFile
       ##
