@@ -1,4 +1,4 @@
-#*********************************************************************************
+# *********************************************************************************
 # URBANopt, Copyright (c) 2019, Alliance for Sustainable Energy, LLC, and other
 # contributors. All rights reserved.
 #
@@ -26,40 +26,36 @@
 # LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
 # OF THE POSSIBILITY OF SUCH DAMAGE.
-#*********************************************************************************
+# *********************************************************************************
 
 module URBANopt
   module Core
     class FeatureFile
-
       ##
       # A FeatureFile contains multiple Features
       ##
-      def initialize()
+      def initialize; end
 
-      end
-      
       ##
       # Get the path to this FeatureFile
       ##
-      def path()
-        raise "path not implemented for FeatureFile, override in your class"
+      def path
+        raise 'path not implemented for FeatureFile, override in your class'
       end
-      
+
       ##
       # Get a list of all Features in this FeatureFile
       ##
-      def features()
-        raise "features not implemented for FeatureFile, override in your class"
+      def features
+        raise 'features not implemented for FeatureFile, override in your class'
       end
 
       ##
       # Return a specific Feature by id, return nil if not found
       ##
       def get_feature_by_id(id)
-        raise "get_feature_by_id not implemented for FeatureFile, override in your class"
+        raise 'get_feature_by_id not implemented for FeatureFile, override in your class'
       end
-
     end
   end
 end
