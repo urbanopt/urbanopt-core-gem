@@ -8,7 +8,6 @@ Gem::Specification.new do |spec|
   spec.version       = URBANopt::Core::VERSION
   spec.authors       = ['Dan Macumber', 'Nicholas Long']
   spec.email         = ['daniel.macumber@nrel.gov', 'nicholas.long@nrel.gov']
-
   spec.summary       = 'URBANopt core library and measures'
   spec.description   = 'URBANopt core library and measures'
   spec.homepage      = 'https://github.com/urbanopt'
