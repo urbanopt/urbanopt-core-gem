@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'urbanopt-core'
   spec.version       = URBANopt::Core::VERSION
   spec.authors       = ['Dan Macumber', 'Nicholas Long']
-  spec.email         = ['daniel.macumber@nrel.gov', 'nicholas.long@nrel.gov']
+  spec.email         = ['nicholas.long@nrel.gov']
   spec.summary       = 'URBANopt core library and measures'
   spec.description   = 'URBANopt core library and measures'
   spec.homepage      = 'https://github.com/urbanopt'
@@ -20,10 +20,11 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
+  spec.required_ruby_version = '~> 2.2.4'
 
   spec.add_development_dependency 'bundler', '~> 1.14'
   spec.add_development_dependency 'rake', '12.3.1'
   spec.add_development_dependency 'rspec', '3.7.0'
 
-  spec.add_dependency 'openstudio-extension', '~> 0.1.3'
+  spec.add_dependency 'openstudio-extension', '~> 0.1.6'
 end
