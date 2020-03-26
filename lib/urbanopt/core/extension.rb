@@ -34,7 +34,7 @@ module URBANopt
   module Core
     class Extension < OpenStudio::Extension::Extension
       # include OpenStudio::Extension
-      def initialize; end
+      # def initialize; end
 
       def initialize
         @root_dir = File.absolute_path(File.join(File.dirname(__FILE__), '..', '..', '..'))
