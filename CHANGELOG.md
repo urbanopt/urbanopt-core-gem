@@ -4,7 +4,7 @@
 
 URBANopt Core Gem version 0.2.0 include minor updates to dependencies and updated copyrights.
 
-Date Range: 12/27/19 - 03/31/20:
+Date Range: 12/27/19 - 03/31/20
 
 Closed Issues and Features
 - Fixed [#11]( https://github.com/urbanopt/urbanopt-core-gem/pull/11 ), Use URBANopt standard contributing guidelines
