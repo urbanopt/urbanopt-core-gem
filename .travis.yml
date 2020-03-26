@@ -13,7 +13,8 @@ before_install:
 install: 
   - bundle install
 before_script:
-  - curl -sLO https://raw.githubusercontent.com/NREL/OpenStudio-server/develop/docker/deployment/scripts/install_openstudio.sh
+  # Update the install_openstudio when updating to OpenStudio 3.x or move to Jenkins
+  - curl -sLO https://raw.githubusercontent.com/NREL/OpenStudio-server/2.9.X-LTS/docker/deployment/scripts/install_openstudio.sh
   - chmod +x install_openstudio.sh
   - sudo ./install_openstudio.sh $OPENSTUDIO_VERSION $OPENSTUDIO_SHA
 script:
