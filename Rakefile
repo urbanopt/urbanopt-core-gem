@@ -37,7 +37,7 @@ RSpec::Core::RakeTask.new(:spec)
 require 'openstudio/extension/rake_task'
 require 'urbanopt/core'
 rake_task = OpenStudio::Extension::RakeTask.new
-rake_task.set_extension_class(URBANopt::Core::Extension)
+rake_task.set_extension_class(URBANopt::Core::Extension, 'urbanopt/urbanopt-core-gem')
 
 require 'rubocop/rake_task'
 RuboCop::RakeTask.new
