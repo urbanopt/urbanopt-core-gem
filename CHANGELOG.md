@@ -1,5 +1,10 @@
 # URBANopt Core Gem
  
+## Version 0.3.0
+
+- Updated dependencies for ruby 2.5.x and OpenStudio 3.x
+- Remove old changelog script functionality in favor of new extension-gem functionality (can be run via rake task)
+
 ## Version 0.2.0
 
 URBANopt Core Gem version 0.2.0 include minor updates to dependencies and updated copyrights.
