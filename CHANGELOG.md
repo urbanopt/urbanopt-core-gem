@@ -1,6 +1,16 @@
 # URBANopt Core Gem
  
+## Version 0.4.0
+
+Date Range: 06/05/20 - 09/17/20
+
+- Fixed [#7]( https://github.com/urbanopt/urbanopt-core-gem/issues/7 ), Remove travis in favor of Jenkins
+- Fixed [#24]( https://github.com/urbanopt/urbanopt-core-gem/issues/24 ), Chore: Add TM to first mention URBANopt on LICENSE file and LICENSE section
+
+
 ## Version 0.3.0
+
+Date Range: 03/31/20 - 06/04/20
 
 - Updated dependencies for ruby 2.5.x and OpenStudio 3.x
 - Remove old changelog script functionality in favor of new extension-gem functionality (can be run via rake task)
