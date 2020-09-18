@@ -1,6 +1,6 @@
 # URBANopt Core
 
-URBANopt core libraries and measures.
+URBANopt<sup>TM</sup> core libraries and measures.
 
 ## Installation
 
