@@ -15,5 +15,5 @@ allow_local = ENV['FAVOR_LOCAL_GEMS']
 #  gem 'openstudio-extension', path: '../OpenStudio-extension-gem'
 #elsif allow_local
 # gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'develop'
-  gem 'openstudio-extension', '~>0.3.1'
+  gem 'openstudio-extension', '~> 0.3.1'
 #end
