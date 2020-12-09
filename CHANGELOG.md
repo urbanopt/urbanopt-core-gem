@@ -1,5 +1,12 @@
 # URBANopt Core Gem
- 
+
+## Version 0.5.1
+
+Date Range: 11/26/20 - 12/08/20
+
+- Fixed [#15]( https://github.com/urbanopt/urbanopt-core-gem/issues/15 ), Updated urbanopt-reopt-example-project to simulate and generate results for multiple PVs
+- Fixed [#30]( https://github.com/urbanopt/urbanopt-core-gem/issues/30 ), Update extension-gem dependency
+
 ## Version 0.5.0
 
 Date Range: 09/18/20 - 11/25/20
@@ -36,7 +43,7 @@ Closed Issues and Features
 
 * Update travis tests to include openstudio related tests
 
-## Version 0.1.0 
+## Version 0.1.0
 
 * Initial release of the URBANopt Core Extension
 * Define the feature and feature_file that will be inherited.
