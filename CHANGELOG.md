@@ -1,5 +1,11 @@
 # URBANopt Core Gem
 
+## Version 0.6.0
+
+Date Range: 12/08/20 - 04/26/21
+
+Updated dependencies for OpenStudio 3.2.0 (Ruby 2.7)
+
 ## Version 0.5.1
 
 Date Range: 11/26/20 - 12/08/20
