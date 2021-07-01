@@ -1,5 +1,10 @@
 # URBANopt Core Gem
 
+## Version 0.6.1
+Date Range: 04/27/21 - 07/01/21
+
+- Fixed [#37]( https://github.com/urbanopt/urbanopt-core-gem/pull/37 ), update rubocop configs to v4
+
 ## Version 0.6.0
 
 Date Range: 12/08/20 - 04/26/21
