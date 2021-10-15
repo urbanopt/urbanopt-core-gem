@@ -1,5 +1,10 @@
 # URBANopt Core Gem
 
+## Version 0.6.2
+Date Range: 07/01/21 - 10/15/21
+
+- Fixed [#38]( https://github.com/urbanopt/urbanopt-core-gem/pull/38 ), Prep version 0.6.2
+
 ## Version 0.6.1
 Date Range: 04/27/21 - 07/01/21
 
