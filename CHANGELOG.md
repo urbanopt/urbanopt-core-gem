@@ -1,6 +1,6 @@
 # URBANopt Core Gem
 
-## Version 0.7.0
+## Version 0.8.0
 Date Range: 11/23/21 - 04/21/22
 
 - Fixed [#41]( https://github.com/urbanopt/urbanopt-core-gem/pull/41 ), Update licenses
