@@ -22,6 +22,7 @@ Or install it yourself as:
 
 This Extension Gem stores the base information needed for all derivative URBANopt extension gems.
 
+
 # Releasing
 
 * Update CHANGELOG.md
