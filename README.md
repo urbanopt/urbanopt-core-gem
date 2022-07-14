@@ -1,5 +1,7 @@
 # URBANopt Core
 
+[![Coverage Status](https://coveralls.io/repos/github/urbanopt/urbanopt-core-gem/badge.svg?branch=develop)](https://coveralls.io/github/urbanopt/urbanopt-core-gem?branch=develop)
+
 URBANopt<sup>TM</sup> core libraries and measures.
 
 ## Installation
