@@ -20,8 +20,7 @@ jobs:
     container:
       image: docker://nrel/openstudio:3.5.1
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
       - name: Update gems
         run: bundle update
       - name: Run Rspec
