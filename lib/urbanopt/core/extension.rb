@@ -1,5 +1,7 @@
+# *********************************************************************************
 # URBANopt™, Copyright © Alliance for Sustainable Energy, LLC.
 # See also https://github.com/urbanopt/urbanopt-core-gem/blob/develop/LICENSE.md
+# *********************************************************************************
 
 require 'openstudio/extension'
 
