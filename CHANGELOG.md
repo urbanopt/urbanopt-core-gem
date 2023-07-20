@@ -1,5 +1,12 @@
 # URBANopt Core Gem
 
+## Version 0.10.0
+Date Range: 12/12/22 - 07/19/23
+
+- Update dependencies for OpenStudio 3.6.0
+- Update license and references to the license file
+- Remove outdated Travis CI config file
+
 ## Version 0.9.0
 Date Range: 04/22/22 - 12/12/22
 
