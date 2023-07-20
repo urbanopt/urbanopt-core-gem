@@ -1,7 +1,7 @@
 # URBANopt Core Gem
 
 ## Version 0.10.0
-Date Range: 12/12/22 - 06/30/23
+Date Range: 12/12/22 - 07/19/23
 
 - Update dependencies for OpenStudio 3.6.0
 - Update license and references to the license file
