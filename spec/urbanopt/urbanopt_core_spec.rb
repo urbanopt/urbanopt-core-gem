@@ -9,4 +9,9 @@ RSpec.describe URBANopt::Core do
   it 'has a version number' do
     expect(URBANopt::Core::VERSION).not_to be nil
   end
+
+  it 'has a measures directory' do
+    instance = URBANopt::Core::Extension.new
+    expect(File.exist?(Pathname(instance.measures_dir))).to be true
+  end
 end
