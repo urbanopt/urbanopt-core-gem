@@ -1,4 +1,4 @@
-name: nightly_build
+name: Core-gem CI
 
 on:
   # push:
