@@ -21,3 +21,6 @@ Gemfile.lock
 
 # Ignore IDE files
 /.idea
+
+# Mac stuff
+*.DS_Store
