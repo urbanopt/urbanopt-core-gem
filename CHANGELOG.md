@@ -1,5 +1,18 @@
 # URBANopt Core Gem
 
+## Version 0.11.0
+
+## What's Changed
+### Exciting New Features 🎉
+* More tests by @vtnate in https://github.com/urbanopt/urbanopt-core-gem/pull/55
+* Os37 by @vtnate in https://github.com/urbanopt/urbanopt-core-gem/pull/56
+### Other Changes
+* remove Jenkinsfile by @vtnate in https://github.com/urbanopt/urbanopt-core-gem/pull/53
+* also run CI when a PR gets a review request by @vtnate in https://github.com/urbanopt/urbanopt-core-gem/pull/54
+
+
+**Full Changelog**: https://github.com/urbanopt/urbanopt-core-gem/compare/v0.10.0...v0.11.0
+
 ## Version 0.10.0
 Date Range: 12/12/22 - 07/19/23
 
