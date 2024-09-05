@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Update gems
-        run: bundle update
+        run: bundle install
       - name: Run Rspec
         run: bundle exec rspec
       # coveralls action docs: https://github.com/marketplace/actions/coveralls-github-action
