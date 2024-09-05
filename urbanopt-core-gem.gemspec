@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '3.2.2'
 
   spec.add_development_dependency 'rspec', '~> 3.13'
+  spec.add_development_dependency 'rubocop', '1.50'
   spec.add_development_dependency 'simplecov', '0.22.0'
   spec.add_development_dependency 'simplecov-lcov', '0.8.0'
 
