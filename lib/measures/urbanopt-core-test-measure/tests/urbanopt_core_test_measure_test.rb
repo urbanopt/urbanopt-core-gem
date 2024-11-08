@@ -1,17 +1,17 @@
-# *******************************************************************************
-# OpenStudio(R), Copyright (c) Alliance for Sustainable Energy, LLC.
-# See also https://openstudio.net/license
-# *******************************************************************************
+# *********************************************************************************
+# URBANopt (tm), Copyright (c) Alliance for Sustainable Energy, LLC.
+# See also https://github.com/urbanopt/urbanopt-core-gem/blob/develop/LICENSE.md
+# *********************************************************************************
 
 require 'openstudio'
 require 'openstudio/measure/ShowRunnerOutput'
 require 'fileutils'
 
-require_relative '../measure.rb'
+require_relative '../measure'
 require 'minitest/autorun'
 
-class UrbanoptCoreTestMeasure_Test < Minitest::Test
-  def test_UrbanoptCoreTestMeasure_BadInput
+class UrbanoptCoreTestMeasureTest < Minitest::Test
+  def test_urbanopt_core_test_measure_bad_input
     # create an instance of the measure
     measure = UrbanoptCoreTestMeasure.new
 
@@ -37,7 +37,7 @@ class UrbanoptCoreTestMeasure_Test < Minitest::Test
     assert(result.value.valueName == 'Fail')
   end
 
-  def test_UrbanoptCoreTestMeasure_GoodInput
+  def test_urbanopt_core_test_measure_good_input
     # create an instance of the measure
     measure = UrbanoptCoreTestMeasure.new
 

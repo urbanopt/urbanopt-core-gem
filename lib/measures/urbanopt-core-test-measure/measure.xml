@@ -3,12 +3,12 @@
   <schema_version>3.1</schema_version>
   <name>urbanopt_core_test_measure</name>
   <uid>3e11f20d-88a8-44eb-a951-4f8cf8a09ccd</uid>
-  <version_id>3e11f20d-88a8-44eb-a951-4f8cf8a09ccd</version_id>
-  <version_modified>2024-11-08T14:32:07Z</version_modified>
+  <version_id>a8297a21-bb02-432c-910e-69222d8fa0f6</version_id>
+  <version_modified>2024-11-08T17:31:22Z</version_modified>
   <xml_checksum>0CA4D54C</xml_checksum>
   <class_name>UrbanoptCoreTestMeasure</class_name>
-  <display_name>Urbanopt Core Test Measure</display_name>
-  <description>This measure tests the urbanopt core gem. It adds an meter at the requested reporting frequency.</description>
+  <display_name>URBANopt Core Test Measure</display_name>
+  <description>This measure is just a test of Urbanopt Core measure. it adds a meter at the requested reporting frequency.</description>
   <modeler_description>The measure just passes in the string and does not validate that it is a proper meter name. It is up to the user to know this or to look at the .mdd file from a previous simulation run.</modeler_description>
   <arguments>
     <argument>
@@ -82,13 +82,13 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>BFFB1AA6</checksum>
+      <checksum>D2F2365A</checksum>
     </file>
     <file>
       <filename>README.md</filename>
       <filetype>md</filetype>
       <usage_type>readme</usage_type>
-      <checksum>29718290</checksum>
+      <checksum>0EA09A41</checksum>
     </file>
     <file>
       <filename>README.md.erb</filename>
@@ -105,13 +105,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>FE6DA82F</checksum>
+      <checksum>7C4E6482</checksum>
     </file>
     <file>
-      <filename>UrbanoptCoreTestMeasure_Test.rb</filename>
+      <filename>urbanopt_core_test_measure_test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>99BD0176</checksum>
+      <checksum>FC45981D</checksum>
     </file>
   </files>
 </measure>

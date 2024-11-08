@@ -1,9 +1,9 @@
-# *******************************************************************************
-# OpenStudio(R), Copyright (c) Alliance for Sustainable Energy, LLC.
-# See also https://openstudio.net/license
-# *******************************************************************************
+# *********************************************************************************
+# URBANopt (tm), Copyright (c) Alliance for Sustainable Energy, LLC.
+# See also https://github.com/urbanopt/urbanopt-core-gem/blob/develop/LICENSE.md
+# *********************************************************************************
 
-# see the URL below for information on how to write OpenStuido measures
+# see the URL below for information on how to write OpenStudio measures
 # http://openstudio.nrel.gov/openstudio-measure-writing-guide
 
 # see the URL below for access to C++ documentation on mondel objects (click on "model" in the main window to view model objects)
