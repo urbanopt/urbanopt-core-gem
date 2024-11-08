@@ -11,7 +11,7 @@ gemspec
 # checkout the latest version (develop) from github.
 allow_local = ENV['FAVOR_LOCAL_GEMS']
 
-gem 'regexp_parser', '2.9.0'
+# gem 'regexp_parser', '2.9.0'
 # 2.9.1 breaks test_with_openstudio, for more information: https://github.com/NREL/OpenStudio/issues/5203
 # pin this dependency to avoid unicode_normalize error
 gem 'addressable', '2.8.1' # openstudio:test_with_openstudio
@@ -21,5 +21,5 @@ gem 'addressable', '2.8.1' # openstudio:test_with_openstudio
 # if allow_local && File.exist?('../OpenStudio-extension-gem')
 #   gem 'openstudio-extension', path: '../OpenStudio-extension-gem'
 # elsif allow_local
-#   gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'develop'
+  gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'wenyi/patch'
 # end

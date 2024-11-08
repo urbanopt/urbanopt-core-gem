@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'simplecov', '0.22.0'
   spec.add_development_dependency 'simplecov-lcov', '0.8.0'
 
-    spec.add_dependency 'openstudio-extension', git: 'https://github.com/NREL/openstudio-extension.git', branch: 'wenyi/patch'
+  # spec.add_dependency 'openstudio-extension', git: 'https://github.com/NREL/openstudio-extension.git', branch: 'wenyi/patch'
 end
