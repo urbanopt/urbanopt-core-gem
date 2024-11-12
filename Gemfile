@@ -21,5 +21,5 @@ gem 'addressable', '2.8.1' # openstudio:test_with_openstudio
 # if allow_local && File.exist?('../OpenStudio-extension-gem')
 #   gem 'openstudio-extension', path: '../OpenStudio-extension-gem'
 # elsif allow_local
-  gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'wenyi/patch'
+  # gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'wenyi/patch'
 # end
