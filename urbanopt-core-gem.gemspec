@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'simplecov', '0.22.0'
   spec.add_development_dependency 'simplecov-lcov', '0.8.0'
 
-  # spec.add_dependency 'openstudio-extension', '0.8.2'
+  spec.add_dependency 'openstudio-extension', '0.8.2'
 end
