@@ -6,8 +6,7 @@ on:
   schedule:
     # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
     # 5 am UTC (11pm MDT the day before) every weekday night in MDT
-    - cron: '25 5 * * 2-6'
-
+    - cron: "25 5 * * 2-6"
 
 env:
   # This env var should enforce develop branch of all dependencies
@@ -18,7 +17,7 @@ jobs:
   weeknight-tests:
     runs-on: ubuntu-latest
     container:
-      image: docker://nrel/openstudio:dev-3.9.0-rc3
+      image: docker://nrel/openstudio:3.9.0
     steps:
       - uses: actions/checkout@v4
       - name: Update gems
