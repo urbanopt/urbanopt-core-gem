@@ -11,12 +11,8 @@ gemspec
 # checkout the latest version (develop) from github.
 allow_local = ENV['FAVOR_LOCAL_GEMS']
 
-# pin this dependency to avoid unicode_normalize error in rake openstudio:test_with_openstudio
-gem 'addressable', '2.8.1'
-gem 'regexp_parser', '2.9.0'
-
 # if allow_local && File.exist?('../OpenStudio-extension-gem')
 #   gem 'openstudio-extension', path: '../OpenStudio-extension-gem'
 # elsif allow_local
-gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'ruby3-conditional_bundler'
+gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'bundler-hack'
 # end
