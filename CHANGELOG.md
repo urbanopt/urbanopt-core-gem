@@ -1,8 +1,22 @@
 # URBANopt Core Gem
 
-## Version 0.11.0
+## Version 1.0.0
 
-## What's Changed
+## Exciting New Features 🎉
+
+* Use openstudio 3.9.0 by @vtnate in https://github.com/urbanopt/urbanopt-core-gem/pull/60
+
+### Other Changes
+
+* Used the pinned version of regex-parser in openstudio-extension. by @wenyikuang in https://github.com/urbanopt/urbanopt-core-gem/pull/61
+
+## New Contributors
+
+* @wenyikuang made their first contribution in https://github.com/urbanopt/urbanopt-core-gem/pull/61
+
+**Full Changelog**: https://github.com/urbanopt/urbanopt-core-gem/compare/v0.11.0...v1.0.0
+
+## Version 0.11.0
 
 ### Exciting New Features 🎉
 
