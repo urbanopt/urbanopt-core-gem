@@ -13,19 +13,23 @@ Add this line to your application's Gemfile:
 gem 'urbanopt-core'
 ```
 
-And then execute:
+And then in the terminal, execute:
 
-    $ bundle
+```terminal
+    bundle
+```
 
 Or install it yourself as:
 
-    $ gem install 'urbanopt-core'
+```terminal
+    gem install 'urbanopt-core'
+```
 
 ## Usage
 
 This Extension Gem stores the base information needed for all derivative URBANopt extension gems.
 
-# Releasing
+## Releasing
 
 * Update CHANGELOG.md
 * Run `rake rubocop:auto_correct`
