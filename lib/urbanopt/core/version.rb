@@ -5,6 +5,6 @@
 
 module URBANopt
   module Core
-    VERSION = '0.11.0'.freeze
+    VERSION = '1.0.0'.freeze
   end
 end
