@@ -3,8 +3,8 @@
   <schema_version>3.1</schema_version>
   <name>urbanopt_core_test_measure</name>
   <uid>3e11f20d-88a8-44eb-a951-4f8cf8a09ccd</uid>
-  <version_id>a8297a21-bb02-432c-910e-69222d8fa0f6</version_id>
-  <version_modified>2024-11-08T17:31:22Z</version_modified>
+  <version_id>a836acdc-a970-4d32-b8f8-0d14bd569005</version_id>
+  <version_modified>2025-08-04T18:42:05Z</version_modified>
   <xml_checksum>0CA4D54C</xml_checksum>
   <class_name>UrbanoptCoreTestMeasure</class_name>
   <display_name>URBANopt Core Test Measure</display_name>
@@ -82,7 +82,7 @@
       <filename>LICENSE.md</filename>
       <filetype>md</filetype>
       <usage_type>license</usage_type>
-      <checksum>D2F2365A</checksum>
+      <checksum>27D48EF2</checksum>
     </file>
     <file>
       <filename>README.md</filename>
