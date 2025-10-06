@@ -17,9 +17,9 @@ jobs:
   weeknight-tests:
     runs-on: ubuntu-latest
     container:
-      image: docker://nrel/openstudio:3.9.0
+      image: docker://nrel/openstudio:3.10.0
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Update gems
         run: |
           bundle install
@@ -28,7 +28,7 @@ jobs:
         run: bundle exec rspec
       # coveralls action docs: https://github.com/marketplace/actions/coveralls-github-action
       - name: Coveralls
-        uses: coverallsapp/github-action@master
+        uses: coverallsapp/github-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path-to-lcov: "./coverage/lcov/urbanopt-core-gem.lcov"
