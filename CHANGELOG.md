@@ -1,5 +1,10 @@
 # URBANopt Core Gem
 
+## Version 1.2.0
+
+* Update license names and dates
+* NLR name change and NatLabRockies github org change
+
 ## Version 1.1.0
 
 * Use openstudio 3.10.0 by @vtnate in <https://github.com/urbanopt/urbanopt-core-gem/pull/64>
