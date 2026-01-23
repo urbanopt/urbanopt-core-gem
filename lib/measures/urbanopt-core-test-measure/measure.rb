@@ -1,13 +1,11 @@
 # *********************************************************************************
-# URBANopt (tm), Copyright (c) Alliance for Sustainable Energy, LLC.
+# URBANopt (tm), Copyright (c) Alliance for Energy Innovation, LLC.
 # See also https://github.com/urbanopt/urbanopt-core-gem/blob/develop/LICENSE.md
 # *********************************************************************************
 
 # see the URL below for information on how to write OpenStudio measures
-# http://openstudio.nrel.gov/openstudio-measure-writing-guide
+# https://natlabrockies.github.io/OpenStudio-user-documentation/reference/measure_writing_guide/
 
-# see the URL below for access to C++ documentation on mondel objects (click on "model" in the main window to view model objects)
-# http://openstudio.nrel.gov/sites/openstudio.nrel.gov/files/nv_data/cpp_documentation_it/model/html/namespaces.html
 
 # start the measure
 class UrbanoptCoreTestMeasure < OpenStudio::Measure::ModelMeasure
