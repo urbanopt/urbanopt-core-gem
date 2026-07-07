@@ -1,7 +1,8 @@
 # URBANopt Core Gem
 
 ## Version 1.3.0
-- Update dependencies for OpenStudio 3.11
+
+* Update dependencies for OpenStudio 3.11
 
 ## Version 1.2.0
 
