@@ -5,8 +5,8 @@ require 'urbanopt/core/version'
 Gem::Specification.new do |spec|
   spec.name          = 'urbanopt-core'
   spec.version       = URBANopt::Core::VERSION
-  spec.authors       = ['Dan Macumber', 'Nicholas Long']
-  spec.email         = ['nicholas.long@nrel.gov']
+  spec.authors       = ['Dan Macumber', 'Nicholas Long', 'Katherine Fleming']
+  spec.email         = ['katherine.fleming@nlr.gov']
   spec.summary       = 'URBANopt core library and measures'
   spec.description   = 'URBANopt core library and measures'
   spec.homepage      = 'https://github.com/urbanopt'
@@ -30,5 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'simplecov', '0.22.0'
   spec.add_development_dependency 'simplecov-lcov', '0.8.0'
 
-  spec.add_dependency 'openstudio-extension', '~> 0.9.4'
+  spec.add_dependency 'openstudio-extension', '~> 0.9.7'
 end
